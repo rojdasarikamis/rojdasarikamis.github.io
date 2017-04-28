@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<title>Contact Me</title>
+		<title>Register</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -14,6 +15,7 @@
 	
 	
 	<style>
+	
 		body {
 		margin: 0;
 		background: url('images/gn.jpg');
@@ -39,7 +41,7 @@
 				</button>
 			</div>
    
-		
+			
 			<div class = "collapse navbar-collapse" id = "navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>&nbsp;&nbsp;
@@ -61,47 +63,56 @@
 			<br><br><br>
 			
 			
-				<div  align="center">
-
-				<center><h1>CONTACT ME</h1></center>
-
-
-				<div class="form-group" style="color:white">
+			
+			
+				<div class="contaner-fluid" style="margin-top:15px;">
+    <div class="row"> </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-9 col-xs-offset-1">
+            <form  class="form-horizontal" style="color:white">
+                <div class="form-group" >
                         <label for="f_name" class="col-md-2 col-xs-3  control-label">First name:</label>
                     <div class="col-md-9 col-xs-9">
                          <input type="text" class="form-control" id="f_name" placeholder="Daisy">
                     </div>
-				<br><br><br>
+
                 </div>
-				
-                <div class="form-group" style="color:white">
+                <div class="form-group">
                         <label for="l_name" class="col-md-2 col-xs-3  control-label">Last name:</label>
                     <div class="col-md-9 col-xs-9">
                         <input type="text" class="form-control" id="l_name" placeholder="Miller">
                     </div>
-					
-					<br><br><br>
                 </div>
-
-                <div class="form-group" style="color:white">
+                <div class="form-group">
                          <label for="mail" class="col-md-2 col-xs-3  control-label">Email Address</label>
                     <div class="col-md-9 col-xs-9">
                         <input type="email" class="form-control" id="mail" placeholder="example@domain">
                     </div>
                 </div>
-				<br><br><br>
+                
+				
+              
+			  
+                
+				
+               
+                <div class="form-group">
+                    <label for="text" class="col-md-2 col-xs-3  control-label"></label>
+                    <div class="col-md-9 col-xs-9">
+                        <textarea class="form-control" id="text" rows="3">Please tell me how can I help you ? </textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-10 col-xs-12">
+                        <button type="submit" class="btn btn-default" onclick="return alert('Request received, Thank you!')" >Submit</button>
+                    </div>
+                </div>
 
+            </form>
+			
+            </div>
+        </div>
+    </div>
 
-
-				<textarea rows="5" cols="50" name="help" placeholder="Please tell me how can I help you ?"></textarea><br>
-				<br>
-				<input type="submit" name="submit" value="Submit" onclick="return alert('Request received, Thank you!')">
-				<br>
-				<br>
-				<br>
-				<br>
-						</div>
-				</div>
-		</div>
 	</body>
 </html>
