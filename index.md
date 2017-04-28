@@ -55,11 +55,7 @@
 					
 					<li><a href="contact.html"><span class="glyphicon glyphicon-share"></span>Contact Me</a></li>&nbsp;&nbsp;
 				</ul>
-				<div style="margin-left:5px; width:100%;">
-					<a href="register.html" type="button" class="btn btn-default navbar-btn pull-right">
-						<span class="glyphicon glyphicon-user"></span>Register
-					</a>
-				</div>
+				
 			</div>
 				
 			<br><br><br>
