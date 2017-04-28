@@ -1,6 +1,7 @@
 
 <html>
 	<head>
+		<title>Home </title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
@@ -54,8 +55,6 @@
 					
 					<li><a href="contact.html"><span class="glyphicon glyphicon-share"></span>Contact Me</a></li>&nbsp;&nbsp;
 				</ul>
-				
-				
 				<div style="margin-left:5px; width:100%;">
 					<a href="register.html" type="button" class="btn btn-default navbar-btn pull-right">
 						<span class="glyphicon glyphicon-user"></span>Register
@@ -73,11 +72,19 @@
 				</h2>
 				
 				<hr>
-				<h3 align="center">Hello! </h3>
+				<h3 align="center">Hello! My name is Rojda Sarikamış. Welcome to my website.</h3>
+				
 				
 				
 				</div> 
-
+			</div>
+			<br><br>
+			<p>
+			<h6 style="color:white">
+			<p  align="center" >If you wondering something about me, you can click menu links up there!</p> </h6></p>
+		</div>
+	</body>
+</html>
 
 
 
