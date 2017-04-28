@@ -79,10 +79,10 @@
 			<br><br>
 			<p>
 			<h6 style="color:white">
-			<p  align="center" >If you wondering something about me, you can click menu links up there!</p> </h6></p>
-		</div>
-	</body>
-</html>
+			<p  align="center" >If you wondering something about me, you can click menu links up there!</p> </h6>
+		
+	
+
 
 
 
