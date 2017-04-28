@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Register</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	
+	<style>
+	
+		body {
+		margin: 0;
+		background: url('images/gn.jpg');
+		background-size: cover;
+		background-repeat:no-repeat;
+		display: compact;
+		display: compact;
+		}
+		
+		.icon-bar{ background-color: #A52A2A;}
+		
+	</style>
+	
+	<body>
+		<div class="container-fluid">
+			<br>
+			
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle"	data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+   
+			
+			<div class = "collapse navbar-collapse" id = "navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>&nbsp;&nbsp;
+					<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span>About Me</a></li>&nbsp;&nbsp;
+					<li><a href="pictures.html"><span class="glyphicon glyphicon-picture"></span>Picture Gallery</a></li>&nbsp;&nbsp;
+					<li><a href="hobbies.html"><span class="glyphicon glyphicon-book"></span>My Hobbies</a></li>&nbsp;&nbsp;
+					<li><a href="family.html"><span class="glyphicon glyphicon-info-sign"></span>My Family</a></li>&nbsp;&nbsp;
+					<li><a href="Home_Town.html"><span class="glyphicon glyphicon-info-sign"></span>My Hometown</a></li>&nbsp;&nbsp;
+					
+					<li><a href="contact.html"><span class="glyphicon glyphicon-share"></span>Contact Me</a></li>&nbsp;&nbsp;
+				</ul>
+				<div style="margin-left:5px; width:100%;">
+					<a href="register.html" type="button" class="btn btn-default navbar-btn pull-right">
+						<span class="glyphicon glyphicon-user"></span>Register
+					</a>
+				</div>
+			</div>
+				
+			<br><br><br>
+			
+			<div class="contaner-fluid" style="margin-top:15px;">
+    <div class="row"> </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-9 col-xs-offset-1">
+            <form  class="form-horizontal" style="color:white">
+                <div class="form-group" >
+                        <label for="f_name" class="col-md-2 col-xs-3  control-label">First name:</label>
+                    <div class="col-md-9 col-xs-9">
+                         <input type="text" class="form-control" id="f_name" placeholder="Daisy">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                        <label for="l_name" class="col-md-2 col-xs-3  control-label">Last name:</label>
+                    <div class="col-md-9 col-xs-9">
+                        <input type="text" class="form-control" id="l_name" placeholder="Miller">
+                    </div>
+                </div>
+                <div class="form-group">
+                         <label for="mail" class="col-md-2 col-xs-3  control-label">Email Address</label>
+                    <div class="col-md-9 col-xs-9">
+                        <input type="email" class="form-control" id="mail" placeholder="example@domain">
+                    </div>
+                </div>
+                <div class="form-group">
+                        <label for="birthday" class="col-md-2 col-xs-3  control-label">Your birthday:</label>
+                    <div class="col-md-9 col-xs-9">
+                        <input type="date" class="form-control" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <div class="form-group">
+                        <label for="city" class="col-md-2 col-xs-3  control-label">Which city are You from</label>
+                    <div class="col-md-9 col-xs-9">
+                        <select>
+
+  <option value="1">Adana</option>
+    <option value="2">Adıyaman</option>
+    <option value="3">Afyonkarahisar</option>
+    <option value="4">Ağrı</option>
+    <option value="5">Amasya</option>
+    <option value="6">Ankara</option>
+    <option value="7">Antalya</option>
+    <option value="8">Artvin</option>
+    <option value="9">Aydın</option>
+    <option value="10">Balıkesir</option>
+    <option value="11">Bilecik</option>
+    <option value="12">Bingöl</option>
+    <option value="13">Bitlis</option>
+    <option value="14">Bolu</option>
+    <option value="15">Burdur</option>
+    <option value="16">Bursa</option>
+    <option value="17">Çanakkale</option>
+    <option value="18">Çankırı</option>
+    <option value="19">Çorum</option>
+    <option value="20">Denizli</option>
+    <option value="21">Diyarbakır</option>
+    <option value="22">Edirne</option>
+    <option value="23">Elazığ</option>
+    <option value="24">Erzincan</option>
+    <option value="25">Erzurum</option>
+    <option value="26">Eskişehir</option>
+    <option value="27">Gaziantep</option>
+    <option value="28">Giresun</option>
+    <option value="29">Gümüşhane</option>
+    <option value="30">Hakkâri</option>
+    <option value="31">Hatay</option>
+    <option value="32">Isparta</option>
+    <option value="33">Mersin</option>
+    <option value="34">İstanbul</option>
+    <option value="35">İzmir</option>
+    <option value="36">Kars</option>
+    <option value="37">Kastamonu</option>
+    <option value="38">Kayseri</option>
+    <option value="39">Kırklareli</option>
+    <option value="40">Kırşehir</option>
+    <option value="41">Kocaeli</option>
+    <option value="42">Konya</option>
+    <option value="43">Kütahya</option>
+    <option value="44">Malatya</option>
+    <option value="45">Manisa</option>
+    <option value="46">Kahramanmaraş</option>
+    <option value="47">Mardin</option>
+    <option value="48">Muğla</option>
+    <option value="49">Muş</option>
+    <option value="50">Nevşehir</option>
+    <option value="51">Niğde</option>
+    <option value="52">Ordu</option>
+    <option value="53">Rize</option>
+    <option value="54">Sakarya</option>
+    <option value="55">Samsun</option>
+    <option value="56">Siirt</option>
+    <option value="57">Sinop</option>
+    <option value="58">Sivas</option>
+    <option value="59">Tekirdağ</option>
+    <option value="60">Tokat</option>
+    <option value="61">Trabzon</option>
+    <option value="62">Tunceli</option>
+    <option value="63">Şanlıurfa</option>
+    <option value="64">Uşak</option>
+    <option value="65">Van</option>
+    <option value="66">Yozgat</option>
+    <option value="67">Zonguldak</option>
+    <option value="68">Aksaray</option>
+    <option value="69">Bayburt</option>
+    <option value="70">Karaman</option>
+    <option value="71">Kırıkkale</option>
+    <option value="72">Batman</option>
+    <option value="73">Şırnak</option>
+    <option value="74">Bartın</option>
+    <option value="75">Ardahan</option>
+    <option value="76">Iğdır</option>
+    <option value="77">Yalova</option>
+    <option value="78">Karabük</option>
+    <option value="79">Kilis</option>
+    <option value="80">Osmaniye</option>
+    <option value="81">Düzce</option>
+</select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gender"  class="col-md-2 col-xs-3  control-label">Your gender:</label>
+                        <div class="col-md-8 col-xs-8" id="gender">
+                    <label class="radio-inline" for="male">
+                        <input type="radio" name="inlineRadioOptions" id="male" value="option1"> Male
+                    </label>
+                    <label class="radio-inline" for="female">
+                        <input type="radio" name="inlineRadioOptions" id="female" value="option2"> Female
+                    </label>
+                         </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 col-xs-3  control-label">Choose that You are doing:</label>
+                    <div class="col-md-9 col-xs-9">
+                        <div class="checkbox"  class="col-md-5 col-md-offset-10 col-xs-8" >
+                            <label>
+                                <input type="checkbox"   id="chsdask" value="option1">Free Parachute
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="blankCasdheckbox" value="option1">Swimming
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="blankCheckbox" value="option1">Paragliding
+                            </label>
+                        </div>
+						<div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="blankCheckboxx" value="option1">Sing a Song 
+                            </label>
+                        </div>
+						
+
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 col-xs-3 control-label" for="file">Upload Your Photo</label>
+                    <div class="col-md-3 col-xs-9">
+                        <div class="file-upload" data-text="Select the file">
+                            <input type="file" id="file">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-md-2 col-xs-3  control-label">Password:</label>
+                    <div class="col-md-3 col-xs-9">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="text" class="col-md-2 col-xs-3  control-label">About You</label>
+                    <div class="col-md-9 col-xs-9">
+                        <textarea class="form-control" id="text" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-10 col-xs-12">
+                        <button type="submit" class="btn btn-default" onclick="return alert('Thanks for registration!')" >Submit</button>
+                    </div>
+                </div>
+
+            </form>
+			
+            </div>
+        </div>
+    </div>
+
+	</body>
+</html>

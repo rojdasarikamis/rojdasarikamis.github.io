@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>My Picture Gallery</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	
+	<style>
+		body {
+		margin: 0;
+		background: url('images/gn.jpg');
+		background-size: cover;
+		background-repeat:no-repeat;
+		display: compact;
+		display: compact;
+		}
+		
+		.icon-bar{ background-color: #A52A2A;}
+		
+	</style>
+	
+	<body>
+		<div class="container-fluid">
+			<br>
+			
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle"	data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+   
+			
+			<div class = "collapse navbar-collapse" id = "navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>&nbsp;&nbsp;
+					<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span>About Me</a></li>&nbsp;&nbsp;
+					<li><a href="pictures.html"><span class="glyphicon glyphicon-picture"></span>Picture Gallery</a></li>&nbsp;&nbsp;
+					<li><a href="hobbies.html"><span class="glyphicon glyphicon-book"></span>My Hobbies</a></li>&nbsp;&nbsp;
+					<li><a href="family.html"><span class="glyphicon glyphicon-info-sign"></span>My Family</a></li>&nbsp;&nbsp;
+					<li><a href="Home_Town.html"><span class="glyphicon glyphicon-info-sign"></span>My Hometown</a></li>&nbsp;&nbsp;
+					
+					<li><a href="contact.html"><span class="glyphicon glyphicon-share"></span>Contact Me</a></li>&nbsp;&nbsp;
+				</ul>
+				<div style="margin-left:5px; width:100%;">
+					<a href="register.html" type="button" class="btn btn-default navbar-btn pull-right">
+						<span class="glyphicon glyphicon-user"></span>Register
+					</a>
+				</div>
+			</div>
+				
+			<br><br><br>
+			
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	<li data-target="#myCarousel" data-slide-to="5"></li>
+	
+  </ol>
+
+
+		  <div class="carousel-inner" align="center" >
+			
+			<div class="item active">
+			  <img src="images/ben1.jpg" width="500" alt="resim">
+			</div>
+
+		 
+			<div class="item">
+			  <img src="images/ben6.jpg" width="500" alt="resim">
+			</div>
+
+			<div class="item">
+			  <img src="images/ben3.jpg"  width="500" alt="resim">
+			</div>
+			
+			<div class="item">
+			  <img src="images/ben4.jpg" width="500" alt="resim">
+			</div>
+			
+			<div class="item">
+			  <img src="images/ben5.jpg" width="500" alt="resim">
+			</div>
+			
+			<div class="item">
+			  <img src="images/ben2.jpg" width="500" alt="resim">
+			</div>
+			
+			</div>	
+
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+			
+		</div>
+	</body>
+</html>
